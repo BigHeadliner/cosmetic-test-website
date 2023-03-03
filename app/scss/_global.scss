@@ -1,0 +1,32 @@
+  
+ 
+
+      
+
+  body {
+   // min-height:100vh; 
+     color: $main-text-color;
+     font-style: normal;
+     font-size: 18px;
+     line-height: 30px;
+     @extend %roundedmplus1c-400;
+ } 
+
+ 
+ .container{ 
+     max-width: 1470px; 
+     margin: 0 auto; 
+     padding: 0 15px;  
+     border: 1px solid green; 
+    //  border: 1px solid transparent;
+ }  
+  
+ .container-slider{ 
+  max-width: 1470px; 
+  margin: 0 auto; 
+  padding: 0;  
+  border: 1px solid green; 
+ //  border: 1px solid transparent;
+} 
+ 
+
