@@ -14,10 +14,20 @@
 
      .main__slider-item {
          height: 700px;
-     }
-
+     } 
+       
+ } 
+  
+ @media(max-width: 1190px) {   
+     
+    //  products
+     
+    .products__cards{ 
+       justify-content: space-around;
+    } 
 
  } 
+
   
  @media(max-width: 1110px) {
 
@@ -31,6 +41,28 @@
 
      .main__slider-item {
         height: 600px;
+    } 
+      
+    // products 
+
+    .products__cards{ 
+        flex-wrap: wrap;
+    } 
+     
+   .products__card{ 
+      margin: 15px;
+   } 
+    
+   .products__card-price {
+       position: absolute;
+       top: -1px;
+       right: 4px;
+    } 
+     
+    .products__card-text {
+        position: absolute;
+        top: -3px;
+        left: 4px;
     }
 
  } 
@@ -47,11 +79,25 @@
         top: 97px; 
     }
       
-   //  main 
+   //  main  
+    
+   .main {
+     margin-bottom: 40px;
+    }
 
     .main__slider-item {
        height: 550px;
-   }
+   } 
+     
+  // products 
+
+   .products__content {
+     margin-bottom: 30px;
+   } 
+    
+   .products__cards {
+    margin-bottom: 70px;
+  }
 
 } 
  
@@ -68,6 +114,16 @@
 
     .main__slider-item {
         height: 500px;
+    }  
+     
+    // products
+     
+    .products__content {
+        margin-bottom: 15px;
+    } 
+     
+    .products__cards {
+        margin-bottom: 50px;
     }
 
 } 
@@ -91,10 +147,32 @@
     }
 
 
-    // main 
+    // main  
+     
+    .main {
+        margin-bottom: 30px;
+    }
 
     .main__slider-item {
         height: 400px;
+    }  
+     
+    // products
+     
+    .products__card {
+        margin: 15px 0;
+    } 
+     
+    .products__card-text {
+        position: absolute;
+        top: -3px;
+        left: -33px;
+    } 
+      
+    .products__card-price {
+        position: absolute;
+        top: -1px;
+        right: -35px;
     }
 
 } 
@@ -121,7 +199,26 @@
 
      .main__slider-item {
         height: 320px;
+    }   
+     
+    // products
+     
+    .products__content {
+        margin-bottom: 0px;
+    }
+
+    .products__title {
+        font-size: 28px;
+        margin-bottom: 10px;
     } 
+     
+    .products__subtitle {
+        margin-bottom: 10px;
+    } 
+     
+    .products__btn{ 
+        margin-bottom: 0;
+    }
      
 } 
  
@@ -131,8 +228,22 @@
 
     .menu__item {
         padding: 7px 0;
-    } 
-    
+    }   
+     
+    // products
+     
+    .products__card-text {
+        position: absolute;
+        top: -3px;
+        left: 0px;
+    }  
+     
+    .products__card-price {
+        position: absolute;
+        top: -1px;
+        right: 0px;
+    }
+
 }
 
 
