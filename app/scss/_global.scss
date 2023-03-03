@@ -2,7 +2,6 @@
  
 
       
-
   body {
    // min-height:100vh; 
      color: $main-text-color;
@@ -15,18 +14,27 @@
  
  .container{ 
      max-width: 1470px; 
+     width: 100%;
      margin: 0 auto; 
-     padding: 0 15px;  
-     border: 1px solid green; 
-    //  border: 1px solid transparent;
- }  
+     padding: 0;  
+     border: 1px solid transparent;
+ }   
   
  .container-slider{ 
-  max-width: 1470px; 
+    max-width: 1440px; 
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;  
+    border: 1px solid transparent;
+}  
+    
+.container-products{ 
+  max-width: 1125px; 
+  width: 100%;
   margin: 0 auto; 
-  padding: 0;  
-  border: 1px solid green; 
- //  border: 1px solid transparent;
-} 
+  padding: 0 15px;  
+  border: 1px solid transparent; 
+}   
+ 
  
 
